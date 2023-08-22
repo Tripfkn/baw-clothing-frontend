@@ -1,0 +1,56 @@
+@import 'header.css';
+@import 'body-content.css';
+@import 'whiterectangule.css';
+@import 'clothing.css';
+@import 'footer.css';
+@import 'vestuario.css';
+@import 'acessorios.css';
+@import 'calcados.css';
+@import 'droping.css';
+
+body {
+    margin: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+    /* font-size: 13.425px */
+    overflow-x: hidden;
+    /* padding-left: 5px; */
+    max-width: 2400px;
+}
+
+/* For mobile phones: */
+/* .body-content {
+        width: 100%;
+    }
+
+    .input {
+        display: none;
+    }
+
+    .image-icone {
+        display: none;
+    }
+
+    .white-rectangle {
+        display: none;
+    }
+
+    .header-topnav {
+        display: none;
+    }
+
+    .clothing {
+        display: none;
+    }
+    .textof-themallcolumn{
+        display: none;
+    } */
+
+
+@media(min-width:1024px) {
+
+    /* For desktop */
+    .body-content {
+        width: 100%;
+    }
+
+}

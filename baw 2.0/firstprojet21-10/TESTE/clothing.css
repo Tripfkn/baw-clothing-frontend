@@ -1,0 +1,45 @@
+.clothing {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    box-sizing: border-box;
+    /* margin-left: 5%; */
+    max-width: calc(100% - 20px);
+}
+
+.clothing img {
+    width: 100%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 100px;
+}
+
+.text-block p {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    height: 60px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 750;
+    color: #000;
+}
+
+.shopnow:hover .text-block {
+    transform: rotate(-30deg) scale(1.2);
+    font-size: large;
+    transition: all .2s cubic-bezier(1, -4, 0, 3);
+    /* text-align: center; */
+}
+
+.shopnow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    padding: 10px;
+}

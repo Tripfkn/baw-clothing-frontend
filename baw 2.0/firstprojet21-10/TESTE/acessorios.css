@@ -1,0 +1,33 @@
+.things-all {
+    width: 100%;
+}
+
+.things-all>h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.things-image {
+    width: 100%;
+}
+
+.things-image img {
+    width: 100%;
+}
+
+header input {
+    width: 100%;
+    border: 0px solid #e0dfdf5d;
+    /*padding: 0px; */
+    margin: 0px 0px 0px 16px;
+    background-image: url(https://www.pngarea.com/pngm/109/1164446_searchicon-png-search-icon-png-download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 20px;
+    background-size: 16px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 0 !important;
+}

@@ -1,0 +1,137 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-content {
+    position: relative;
+    width: 96%;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.black-image {
+    width: 100%;
+}
+
+.black-image img {
+    width: 100%;
+}
+
+.body-image {
+    background-size: 16px;
+    width: 100%;
+    /* float: left; */
+    padding: 10px 20px 10px 0px;
+    display: flex;
+}
+
+.body-image img {
+    width: 100%;
+}
+
+.main-banner {
+    padding: 10px 20px 20px 0px;
+    width: 100%;
+}
+
+.secondary-banner {
+    padding: 10px 20px 10px 0px;
+}
+.image-icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 4%;
+    padding-top: 20px;
+    position: fixed;
+    right: 0;
+    top: 60px;
+    background-color: white;
+}
+
+.feedback {
+    height: 50px;
+    width: 70px;
+    background-color: #8200ff;
+    display: flex;
+    position: fixed;
+    right: 0;
+    transform: rotate(90deg);
+    margin: 0;
+}
+
+.feedback p {
+    color: white;
+    transform: rotate(180deg);
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.image-icone img {
+    width: 50%;
+    margin: 0px 0px 32px 0px;
+    background-color: transparent;
+    flex-direction: column;
+}
+
+.column-1 {
+    width: 55%;
+    background-color: transparent;
+}
+
+.third-banner {
+    width: 50%;
+    border-style: none;
+}
+
+.fourth-banner {
+    width: 50%;
+    border-style: none;
+}
+
+.main-banner {
+    border-style: none;
+    width: 100%;
+    display: flex;
+
+}
+
+.sub-mainbanner {
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.sub-mainbanner div:first-child {
+    padding-right: 30px;
+
+}
+
+.column-2 {
+    width: 45%;
+
+}
+
+.secondary-banner {
+    box-sizing: border-box;
+    border-style: none;
+    margin-bottom: 30;
+    padding-bottom: 10px;
+    padding-left: 45px;
+}
+
+.secondary-banner img {
+    padding-bottom: 20px;
+}
+
+.white-rectangle {
+    height: 150px;
+    width: 1300px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    max-width: calc(100% - 20px);
+
+}

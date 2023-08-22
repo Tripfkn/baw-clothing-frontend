@@ -1,0 +1,32 @@
+.white-rectangle {
+    width: 100%;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+.white-rectangle img {
+    width: 100%;
+
+}
+
+.theworld {
+    width: 10px;
+}
+
+.rick {
+    width: 100%;
+}
+
+.white-rectangle a {
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+}
