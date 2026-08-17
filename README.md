@@ -1,6 +1,6 @@
 # baw-clothing-frontend
 
-# Recriação do site BAW Clothing
+# BAW Clothing Frontend Recreation
 
 Projeto de front-end desenvolvido durante meu período de treinamento com os desenvolvedores da BAW Clothing.
 
