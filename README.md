@@ -1,4 +1,4 @@
-# copyBawClothingSite
+# baw-clothing-frontend
 
 # Recriação do site BAW Clothing
 
